@@ -1,0 +1,35 @@
+@model Guarder.Models.Order
+@{
+    ViewData["Title"] = "Sifarişi Sil";
+}
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>Sifarişi Sil</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-7 mx-auto">
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="Id" value="@Model.Id" />
+                    <div class="contact_form-container">
+                        <div>
+                            <div>
+                                <label>Xidmət ID: @Model.ServiceId</label>
+                            </div>
+                            <div>
+                                <label>Ətraflı: @Model.Details</label>
+                            </div>
+                            <div>
+                                <label>Status: @Model.Status</label>
+                            </div>
+                            <div class="btn-box">
+                                <button type="submit" class="btn btn-danger">Sil</button>
+                                <a href="/Order/Index" class="btn btn-secondary">Geri</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

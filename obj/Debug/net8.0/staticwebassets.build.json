@@ -1,0 +1,3318 @@
+{
+  "Version": 1,
+  "Hash": "q/uSBQaOm5LfcgyhNL1ROlg9J29o9njDp2SDJI4ckw4=",
+  "Source": "Guarder",
+  "BasePath": "_content/Guarder",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Guarder\\wwwroot",
+      "Source": "Guarder",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Guarder.styles.css",
+      "SourceId": "Guarder",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "Guarder#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "o2czzb3ujb",
+      "Integrity": "IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Guarder.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Guarder.bundle.scp.css",
+      "SourceId": "Guarder",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "Guarder#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "o2czzb3ujb",
+      "Integrity": "IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Guarder.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zuvuklkj3l",
+      "Integrity": "Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\font-awesome.min.css",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "css/font-awesome.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rf9f4pws8w",
+      "Integrity": "eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\responsive.css",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "css/responsive#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g32svcvdku",
+      "Integrity": "ZKe5P/pmJh/DzF0n32J/vaN04G3gS3CrAyzkEj8/Zf8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\responsive.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c35tqe7u1z",
+      "Integrity": "+P7pnYCWi2igvXzpFoymqedT1lV4WbYL4UzALbO3Tws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css.map",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "css/style.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvoy89paeb",
+      "Integrity": "aY6m4ZZZ+rM5Xx3F8NoOyjikuJSU3qC32y0FFtUFHXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.scss",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "css/style#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uo47nmfu9l",
+      "Integrity": "fhKHwFpuh5xeJPffc/vOVMqNx2Y3+j6POWjO2SnnMrI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.scss"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "fonts/fontawesome-webfont#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yex6mt8az7",
+      "Integrity": "qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "fonts/fontawesome-webfont#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyrbpue749",
+      "Integrity": "ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "fonts/fontawesome-webfont#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2hr3gl3r5x",
+      "Integrity": "Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\octin_sports_rg.ttf",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "fonts/octin_sports_rg#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w7lunnmo9l",
+      "Integrity": "7FkWfXOy95B/Oiz2O6uevhw0IaB5DnUbXc1JUzm9KgU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\octin_sports_rg.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\about-img.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/about-img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n3rskqr23c",
+      "Integrity": "zRvA8UL1dMKfew0exVmqp4ihXh5mUWyLtM6UfW2ZqaM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\aslan.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/aslan#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ue8d22umxr",
+      "Integrity": "1lVsztaYWpIYj++QwDI4OwhUE7Uw/ISW230r2AbWz0Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aslan.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\client.png",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/client#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzeyustoqx",
+      "Integrity": "Vx6cFhBeZdhsqc/yfOOE0c6qkavkcMfJJqfql+rteJ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\client.png"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\contact-bg.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/contact-bg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4pb1xl1r8",
+      "Integrity": "8agG6nrRRBhAu/F3OAtBMYwqSeLam0EdGvY8TeTlMyo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\contact-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\favicon.png",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hgle6ixpij",
+      "Integrity": "IQJ3h/NyJYkoWnkhpnvyvaK6JhvQ9gJS/hUWSMgTnfk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\hero-bg.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/hero-bg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xkragk527u",
+      "Integrity": "36XCrIdDzRKy/tAw7qpe2gcm4/1QD+MbUVNSBVWiqBU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\ismayil.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/ismayil#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jeviwebr0h",
+      "Integrity": "e/eAOaE16CpKWiUvQ7iqF9uNtGnnCcNH0fa4DEFj2sY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ismayil.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\mutalib.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/mutalib#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rlct9sfsmg",
+      "Integrity": "D26MgVOZM4xYoRu1K7TR7lREiwScCdtZB7gDRAWXLuA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mutalib.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\onur.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/onur#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "smsmknwd68",
+      "Integrity": "jDVpq6If4SObYKfZf4m7VCCPhu88qgAtVMZ/NBsPdts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\onur.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\razil.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/razil#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xi0jq412h9",
+      "Integrity": "l/xcUYSc8yK9Fktf8Z5wke04Gv09VBgEdN+Nt/eXwkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\razil.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\rehim.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/rehim#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c0jduhq0wh",
+      "Integrity": "fAMbGbt3keRm3WCRQ9lFSfRQ5UOUL61HSQe2CoNPhWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rehim.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s1.svg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/s1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zznoud6ieo",
+      "Integrity": "f6E14uuD/nhIvq8fILRkjHt7ZISTQZIdBHcpm0rT5TY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\s1.svg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s2.svg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/s2#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4s95531pw7",
+      "Integrity": "xCFjd0o4LB4EwMCv3yPd4KPzzvroXb9iIN0x4es8pYM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\s2.svg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s3.svg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/s3#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kzd7nt2mbk",
+      "Integrity": "cBLWOPqolDChgss/39UkXNPHmOMavT6B0BjiVxWKtCw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\s3.svg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t1.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/t1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ezw7b2du2",
+      "Integrity": "0LGiqE7SWKiuEoRXRlheJnmNNCqwALq3D74JDUPIfHk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t2.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/t2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hqy8ejnxlm",
+      "Integrity": "2QslpdG1dy1ooWSuxFvP2RJ0tff7GERce1WqW+WYT7E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t3.jpg",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "images/t3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xi118h6jcs",
+      "Integrity": "Bzb4Xt6LhPXYM3nQ28+jii5EEU4CQoOtMC0GX404Tok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\t3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "js/bootstrap#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eeo95aoedo",
+      "Integrity": "xnDP4dY2RVpj8J97xzxpbib3xJDci/Lr9DHRLUEpDPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\custom.js",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "js/custom#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyvakxl06u",
+      "Integrity": "Rshx8k+CwF8w8rI0TcYBIgOomEh6CWeRHC1p5tVL+bQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "SourceId": "Guarder",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\",
+      "BasePath": "_content/Guarder",
+      "RelativePath": "js/jquery-3.4.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0h1hq80lqs",
+      "Integrity": "TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.zuvuklkj3l.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zuvuklkj3l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nfu23DiRqsrx/6B6vsI0T9vEVKq1M6KgO8+TV363g3s="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.rf9f4pws8w.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rf9f4pws8w"
+        },
+        {
+          "Name": "label",
+          "Value": "css/font-awesome.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        }
+      ]
+    },
+    {
+      "Route": "css/responsive.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZKe5P/pmJh/DzF0n32J/vaN04G3gS3CrAyzkEj8/Zf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZKe5P/pmJh/DzF0n32J/vaN04G3gS3CrAyzkEj8/Zf8="
+        }
+      ]
+    },
+    {
+      "Route": "css/responsive.g32svcvdku.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZKe5P/pmJh/DzF0n32J/vaN04G3gS3CrAyzkEj8/Zf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g32svcvdku"
+        },
+        {
+          "Name": "label",
+          "Value": "css/responsive.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZKe5P/pmJh/DzF0n32J/vaN04G3gS3CrAyzkEj8/Zf8="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.c35tqe7u1z.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P7pnYCWi2igvXzpFoymqedT1lV4WbYL4UzALbO3Tws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c35tqe7u1z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P7pnYCWi2igvXzpFoymqedT1lV4WbYL4UzALbO3Tws="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P7pnYCWi2igvXzpFoymqedT1lV4WbYL4UzALbO3Tws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P7pnYCWi2igvXzpFoymqedT1lV4WbYL4UzALbO3Tws="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.dvoy89paeb.map",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aY6m4ZZZ+rM5Xx3F8NoOyjikuJSU3qC32y0FFtUFHXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvoy89paeb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aY6m4ZZZ+rM5Xx3F8NoOyjikuJSU3qC32y0FFtUFHXg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.map",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aY6m4ZZZ+rM5Xx3F8NoOyjikuJSU3qC32y0FFtUFHXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aY6m4ZZZ+rM5Xx3F8NoOyjikuJSU3qC32y0FFtUFHXg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.scss",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhKHwFpuh5xeJPffc/vOVMqNx2Y3+j6POWjO2SnnMrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fhKHwFpuh5xeJPffc/vOVMqNx2Y3+j6POWjO2SnnMrI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.uo47nmfu9l.scss",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhKHwFpuh5xeJPffc/vOVMqNx2Y3+j6POWjO2SnnMrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uo47nmfu9l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fhKHwFpuh5xeJPffc/vOVMqNx2Y3+j6POWjO2SnnMrI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.2hr3gl3r5x.woff2",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hr3gl3r5x"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/fontawesome-webfont.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.eyrbpue749.woff",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyrbpue749"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/fontawesome-webfont.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.ttf",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.woff",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.woff2",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/fontawesome-webfont.yex6mt8az7.ttf",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yex6mt8az7"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/fontawesome-webfont.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/octin_sports_rg.ttf",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\octin_sports_rg.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7FkWfXOy95B/Oiz2O6uevhw0IaB5DnUbXc1JUzm9KgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7FkWfXOy95B/Oiz2O6uevhw0IaB5DnUbXc1JUzm9KgU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/octin_sports_rg.w7lunnmo9l.ttf",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\octin_sports_rg.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7FkWfXOy95B/Oiz2O6uevhw0IaB5DnUbXc1JUzm9KgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w7lunnmo9l"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/octin_sports_rg.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7FkWfXOy95B/Oiz2O6uevhw0IaB5DnUbXc1JUzm9KgU="
+        }
+      ]
+    },
+    {
+      "Route": "Guarder.bundle.scp.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Guarder.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ="
+        }
+      ]
+    },
+    {
+      "Route": "Guarder.o2czzb3ujb.bundle.scp.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Guarder.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2czzb3ujb"
+        },
+        {
+          "Name": "label",
+          "Value": "Guarder.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ="
+        }
+      ]
+    },
+    {
+      "Route": "Guarder.o2czzb3ujb.styles.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Guarder.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2czzb3ujb"
+        },
+        {
+          "Name": "label",
+          "Value": "Guarder.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ="
+        }
+      ]
+    },
+    {
+      "Route": "Guarder.styles.css",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Guarder.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 06:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IBmZu5D6bx2BtjJg8Na4xvRFJR+Vw1oyysO4p459zJQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/about-img.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\about-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRvA8UL1dMKfew0exVmqp4ihXh5mUWyLtM6UfW2ZqaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRvA8UL1dMKfew0exVmqp4ihXh5mUWyLtM6UfW2ZqaM="
+        }
+      ]
+    },
+    {
+      "Route": "images/about-img.n3rskqr23c.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\about-img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRvA8UL1dMKfew0exVmqp4ihXh5mUWyLtM6UfW2ZqaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3rskqr23c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/about-img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRvA8UL1dMKfew0exVmqp4ihXh5mUWyLtM6UfW2ZqaM="
+        }
+      ]
+    },
+    {
+      "Route": "images/aslan.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\aslan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lVsztaYWpIYj++QwDI4OwhUE7Uw/ISW230r2AbWz0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:55:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lVsztaYWpIYj++QwDI4OwhUE7Uw/ISW230r2AbWz0Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/aslan.ue8d22umxr.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\aslan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lVsztaYWpIYj++QwDI4OwhUE7Uw/ISW230r2AbWz0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:55:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ue8d22umxr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aslan.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lVsztaYWpIYj++QwDI4OwhUE7Uw/ISW230r2AbWz0Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/client.bzeyustoqx.png",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\client.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vx6cFhBeZdhsqc/yfOOE0c6qkavkcMfJJqfql+rteJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzeyustoqx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/client.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vx6cFhBeZdhsqc/yfOOE0c6qkavkcMfJJqfql+rteJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/client.png",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\client.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vx6cFhBeZdhsqc/yfOOE0c6qkavkcMfJJqfql+rteJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vx6cFhBeZdhsqc/yfOOE0c6qkavkcMfJJqfql+rteJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/contact-bg.h4pb1xl1r8.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\contact-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8agG6nrRRBhAu/F3OAtBMYwqSeLam0EdGvY8TeTlMyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4pb1xl1r8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/contact-bg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8agG6nrRRBhAu/F3OAtBMYwqSeLam0EdGvY8TeTlMyo="
+        }
+      ]
+    },
+    {
+      "Route": "images/contact-bg.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\contact-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8agG6nrRRBhAu/F3OAtBMYwqSeLam0EdGvY8TeTlMyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8agG6nrRRBhAu/F3OAtBMYwqSeLam0EdGvY8TeTlMyo="
+        }
+      ]
+    },
+    {
+      "Route": "images/favicon.hgle6ixpij.png",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IQJ3h/NyJYkoWnkhpnvyvaK6JhvQ9gJS/hUWSMgTnfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgle6ixpij"
+        },
+        {
+          "Name": "label",
+          "Value": "images/favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IQJ3h/NyJYkoWnkhpnvyvaK6JhvQ9gJS/hUWSMgTnfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/favicon.png",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IQJ3h/NyJYkoWnkhpnvyvaK6JhvQ9gJS/hUWSMgTnfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IQJ3h/NyJYkoWnkhpnvyvaK6JhvQ9gJS/hUWSMgTnfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero-bg.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\hero-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36XCrIdDzRKy/tAw7qpe2gcm4/1QD+MbUVNSBVWiqBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-36XCrIdDzRKy/tAw7qpe2gcm4/1QD+MbUVNSBVWiqBU="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero-bg.xkragk527u.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\hero-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36XCrIdDzRKy/tAw7qpe2gcm4/1QD+MbUVNSBVWiqBU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xkragk527u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero-bg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-36XCrIdDzRKy/tAw7qpe2gcm4/1QD+MbUVNSBVWiqBU="
+        }
+      ]
+    },
+    {
+      "Route": "images/ismayil.jeviwebr0h.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\ismayil.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/eAOaE16CpKWiUvQ7iqF9uNtGnnCcNH0fa4DEFj2sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 11:12:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jeviwebr0h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ismayil.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/eAOaE16CpKWiUvQ7iqF9uNtGnnCcNH0fa4DEFj2sY="
+        }
+      ]
+    },
+    {
+      "Route": "images/ismayil.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\ismayil.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/eAOaE16CpKWiUvQ7iqF9uNtGnnCcNH0fa4DEFj2sY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 11:12:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/eAOaE16CpKWiUvQ7iqF9uNtGnnCcNH0fa4DEFj2sY="
+        }
+      ]
+    },
+    {
+      "Route": "images/mutalib.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\mutalib.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D26MgVOZM4xYoRu1K7TR7lREiwScCdtZB7gDRAWXLuA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 10:03:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D26MgVOZM4xYoRu1K7TR7lREiwScCdtZB7gDRAWXLuA="
+        }
+      ]
+    },
+    {
+      "Route": "images/mutalib.rlct9sfsmg.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\mutalib.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D26MgVOZM4xYoRu1K7TR7lREiwScCdtZB7gDRAWXLuA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 10:03:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rlct9sfsmg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/mutalib.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D26MgVOZM4xYoRu1K7TR7lREiwScCdtZB7gDRAWXLuA="
+        }
+      ]
+    },
+    {
+      "Route": "images/onur.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\onur.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDVpq6If4SObYKfZf4m7VCCPhu88qgAtVMZ/NBsPdts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:10:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDVpq6If4SObYKfZf4m7VCCPhu88qgAtVMZ/NBsPdts="
+        }
+      ]
+    },
+    {
+      "Route": "images/onur.smsmknwd68.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\onur.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDVpq6If4SObYKfZf4m7VCCPhu88qgAtVMZ/NBsPdts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:10:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smsmknwd68"
+        },
+        {
+          "Name": "label",
+          "Value": "images/onur.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDVpq6If4SObYKfZf4m7VCCPhu88qgAtVMZ/NBsPdts="
+        }
+      ]
+    },
+    {
+      "Route": "images/razil.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\razil.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/xcUYSc8yK9Fktf8Z5wke04Gv09VBgEdN+Nt/eXwkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 08:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/xcUYSc8yK9Fktf8Z5wke04Gv09VBgEdN+Nt/eXwkc="
+        }
+      ]
+    },
+    {
+      "Route": "images/razil.xi0jq412h9.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\razil.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/xcUYSc8yK9Fktf8Z5wke04Gv09VBgEdN+Nt/eXwkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 08:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xi0jq412h9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/razil.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/xcUYSc8yK9Fktf8Z5wke04Gv09VBgEdN+Nt/eXwkc="
+        }
+      ]
+    },
+    {
+      "Route": "images/rehim.c0jduhq0wh.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\rehim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fAMbGbt3keRm3WCRQ9lFSfRQ5UOUL61HSQe2CoNPhWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:55:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c0jduhq0wh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rehim.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fAMbGbt3keRm3WCRQ9lFSfRQ5UOUL61HSQe2CoNPhWY="
+        }
+      ]
+    },
+    {
+      "Route": "images/rehim.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\rehim.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fAMbGbt3keRm3WCRQ9lFSfRQ5UOUL61HSQe2CoNPhWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 09:55:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fAMbGbt3keRm3WCRQ9lFSfRQ5UOUL61HSQe2CoNPhWY="
+        }
+      ]
+    },
+    {
+      "Route": "images/s1.svg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f6E14uuD/nhIvq8fILRkjHt7ZISTQZIdBHcpm0rT5TY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f6E14uuD/nhIvq8fILRkjHt7ZISTQZIdBHcpm0rT5TY="
+        }
+      ]
+    },
+    {
+      "Route": "images/s1.zznoud6ieo.svg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f6E14uuD/nhIvq8fILRkjHt7ZISTQZIdBHcpm0rT5TY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zznoud6ieo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/s1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f6E14uuD/nhIvq8fILRkjHt7ZISTQZIdBHcpm0rT5TY="
+        }
+      ]
+    },
+    {
+      "Route": "images/s2.4s95531pw7.svg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xCFjd0o4LB4EwMCv3yPd4KPzzvroXb9iIN0x4es8pYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4s95531pw7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/s2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xCFjd0o4LB4EwMCv3yPd4KPzzvroXb9iIN0x4es8pYM="
+        }
+      ]
+    },
+    {
+      "Route": "images/s2.svg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xCFjd0o4LB4EwMCv3yPd4KPzzvroXb9iIN0x4es8pYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xCFjd0o4LB4EwMCv3yPd4KPzzvroXb9iIN0x4es8pYM="
+        }
+      ]
+    },
+    {
+      "Route": "images/s3.kzd7nt2mbk.svg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cBLWOPqolDChgss/39UkXNPHmOMavT6B0BjiVxWKtCw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzd7nt2mbk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/s3.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cBLWOPqolDChgss/39UkXNPHmOMavT6B0BjiVxWKtCw="
+        }
+      ]
+    },
+    {
+      "Route": "images/s3.svg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cBLWOPqolDChgss/39UkXNPHmOMavT6B0BjiVxWKtCw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cBLWOPqolDChgss/39UkXNPHmOMavT6B0BjiVxWKtCw="
+        }
+      ]
+    },
+    {
+      "Route": "images/t1.8ezw7b2du2.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0LGiqE7SWKiuEoRXRlheJnmNNCqwALq3D74JDUPIfHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ezw7b2du2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0LGiqE7SWKiuEoRXRlheJnmNNCqwALq3D74JDUPIfHk="
+        }
+      ]
+    },
+    {
+      "Route": "images/t1.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0LGiqE7SWKiuEoRXRlheJnmNNCqwALq3D74JDUPIfHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0LGiqE7SWKiuEoRXRlheJnmNNCqwALq3D74JDUPIfHk="
+        }
+      ]
+    },
+    {
+      "Route": "images/t2.hqy8ejnxlm.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2QslpdG1dy1ooWSuxFvP2RJ0tff7GERce1WqW+WYT7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hqy8ejnxlm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2QslpdG1dy1ooWSuxFvP2RJ0tff7GERce1WqW+WYT7E="
+        }
+      ]
+    },
+    {
+      "Route": "images/t2.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2QslpdG1dy1ooWSuxFvP2RJ0tff7GERce1WqW+WYT7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2QslpdG1dy1ooWSuxFvP2RJ0tff7GERce1WqW+WYT7E="
+        }
+      ]
+    },
+    {
+      "Route": "images/t3.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bzb4Xt6LhPXYM3nQ28+jii5EEU4CQoOtMC0GX404Tok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bzb4Xt6LhPXYM3nQ28+jii5EEU4CQoOtMC0GX404Tok="
+        }
+      ]
+    },
+    {
+      "Route": "images/t3.xi118h6jcs.jpg",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bzb4Xt6LhPXYM3nQ28+jii5EEU4CQoOtMC0GX404Tok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xi118h6jcs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/t3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bzb4Xt6LhPXYM3nQ28+jii5EEU4CQoOtMC0GX404Tok="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.eeo95aoedo.js",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnDP4dY2RVpj8J97xzxpbib3xJDci/Lr9DHRLUEpDPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eeo95aoedo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnDP4dY2RVpj8J97xzxpbib3xJDci/Lr9DHRLUEpDPA="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.js",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnDP4dY2RVpj8J97xzxpbib3xJDci/Lr9DHRLUEpDPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnDP4dY2RVpj8J97xzxpbib3xJDci/Lr9DHRLUEpDPA="
+        }
+      ]
+    },
+    {
+      "Route": "js/custom.eyvakxl06u.js",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\custom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rshx8k+CwF8w8rI0TcYBIgOomEh6CWeRHC1p5tVL+bQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyvakxl06u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/custom.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rshx8k+CwF8w8rI0TcYBIgOomEh6CWeRHC1p5tVL+bQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/custom.js",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\custom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rshx8k+CwF8w8rI0TcYBIgOomEh6CWeRHC1p5tVL+bQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rshx8k+CwF8w8rI0TcYBIgOomEh6CWeRHC1p5tVL+bQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.4.1.min.0h1hq80lqs.js",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0h1hq80lqs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-3.4.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-3.4.1.min.js",
+      "AssetFile": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:46:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TCTf0oeErSvvs9r6rGvx7U581YzOcT2aCyKNQm6BK68="
+        }
+      ]
+    }
+  ]
+}

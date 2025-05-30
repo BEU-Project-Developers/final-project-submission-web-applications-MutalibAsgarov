@@ -1,0 +1,53 @@
+﻿<section class="about_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 px-0">
+                <div class="img_container">
+                    <div class="img-box">
+                        <img src="images/about-img.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-0">
+                <div class="detail-box">
+                    <div class="heading_container ">
+                        <h2>
+                            BİZ KİMİK?
+                        </h2>
+                    </div>
+                    <p id="about-text">
+                        Guarder mühafizə şirkəti, müştərilərimizin təhlükəsizliyini təmin etmək məqsədilə ən müasir yanaşmaları və qabaqcıl texnologiyaları tətbiq edir. Biz, fərdi və korporativ mühafizə sahəsində geniş təcrübəyə malik peşəkar komandamızla, yüksək keyfiyyətli və etibarlı xidmətlər göstəririk.
+                        <span id="more-text" style="display:none;">
+                            Şirkətimizin əsas prinsipləri arasında dürüstlük, məsuliyyət və müştəri məmnuniyyəti dayanır. Guarder-də hər bir müştərinin təhlükəsizlik ehtiyacları diqqətlə analiz edilir və ona uyğun fərdi həllər təqdim olunur. Bizimlə əməkdaşlıq edərək, siz öz iş və şəxsi həyatınızda tam təhlükəsizlik və rahatlıq əldə edirsiniz. Guarder – etibarlı mühafizə xidmətində sizin güvənciniz.
+                        </span>
+                    </p>
+
+                    <div class="btn-box">
+                        <a href="#" id="readMoreBtn">Daha çox oxu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>        document.getElementById('readMoreBtn').addEventListener('click', function(event) {
+            event.preventDefault();
+
+            var moreText = document.getElementById('more-text');
+            var btn = document.getElementById('readMoreBtn');
+
+            if (moreText.style.display === 'none') {
+                moreText.style.display = 'inline';
+                btn.textContent = 'Daha az oxu';
+            } else {
+                moreText.style.display = 'none';
+                btn.textContent = 'Daha çox oxu';
+            }
+        });
+    </script>
+</section>
+
+
+
+
+
+<!-- end about section -->

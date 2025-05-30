@@ -1,0 +1,42 @@
+@model IEnumerable<Guarder.Models.Order>
+@{
+    ViewData["Title"] = "Sifarişlər";
+}
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>Sifarişlər</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn btn-success mb-3" href="/Order/Create">Yeni Sifariş</a>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Xidmət</th>
+                            <th>Ətraflı</th>
+                            <th>Status</th>
+                            <th>Əməliyyat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.ServiceId</td>
+                                <td>@item.Details</td>
+                                <td>@item.Status</td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" href="/Order/Edit/@item.Id">Redaktə</a>
+                                    <a class="btn btn-danger btn-sm" href="/Order/Delete/@item.Id">Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

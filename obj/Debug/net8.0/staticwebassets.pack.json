@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Guarder.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Guarder.o2czzb3ujb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\fonts\\octin_sports_rg.ttf",
+      "PackagePath": "staticwebassets\\fonts\\octin_sports_rg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\aslan.jpg",
+      "PackagePath": "staticwebassets\\images\\aslan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\client.png",
+      "PackagePath": "staticwebassets\\images\\client.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\ismayil.jpg",
+      "PackagePath": "staticwebassets\\images\\ismayil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\mutalib.jpg",
+      "PackagePath": "staticwebassets\\images\\mutalib.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\onur.jpg",
+      "PackagePath": "staticwebassets\\images\\onur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\razil.jpg",
+      "PackagePath": "staticwebassets\\images\\razil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\rehim.jpg",
+      "PackagePath": "staticwebassets\\images\\rehim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s1.svg",
+      "PackagePath": "staticwebassets\\images\\s1.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s2.svg",
+      "PackagePath": "staticwebassets\\images\\s2.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\s3.svg",
+      "PackagePath": "staticwebassets\\images\\s3.svg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t1.jpg",
+      "PackagePath": "staticwebassets\\images\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t2.jpg",
+      "PackagePath": "staticwebassets\\images\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\images\\t3.jpg",
+      "PackagePath": "staticwebassets\\images\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\acer\\OneDrive\\Desktop\\Guarder-main - Copy\\Guarder\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Guarder.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Guarder.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Guarder.props",
+      "PackagePath": "build\\Guarder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Guarder.props",
+      "PackagePath": "buildMultiTargeting\\Guarder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Guarder.props",
+      "PackagePath": "buildTransitive\\Guarder.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
