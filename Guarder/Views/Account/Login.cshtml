@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "GİRİŞ";
+    Layout = "_Layout";
+}
+<section class="contact_section layout_padding">
+    <div class="contact_bg_box">
+        <div class="img-box">
+            <img src="~/images/contact-bg.jpg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>GİRİŞ</h2>
+        </div>
+        <div class="">
+            <div class="row">
+                <div class="col-md-7 mx-auto">
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.Error</div>
+                    }
+                    <form asp-action="Login" method="post">
+                        <div class="contact_form-container">
+                            <div>
+                                <div>
+                                    <input type="email" name="Email" placeholder="EMAİL" required />
+                                </div>
+                                <div>
+                                    <input type="password" name="Password" placeholder="ŞİFRƏ" required />
+                                </div>
+                                <div class="btn-box" style="display: flex; gap: 20px;">
+                                    <button type="submit">GİRİŞ ET</button>
+                                    <a asp-controller="Account" asp-action="Register" class="btn btn-secondary">QEYDİYYATDAN KEÇ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
