@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>Admin İdarəetmə Paneli</h2>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card text-white bg-primary mb-3">
+                    <div class="card-header">İstifadəçilər</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ümumi İstifadəçilər</h5>
+                        <p class="card-text display-4">@ViewBag.UserCount</p>
+                        <a href="/Order" class="btn btn-light">İdarə Et</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-white bg-success mb-3">
+                    <div class="card-header">Sifarişlər</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ümumi Sifarişlər</h5>
+                        <p class="card-text display-4">@ViewBag.OrderCount</p>
+                        <a href="/Order" class="btn btn-light">İdarə Et</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="list-group">
+                    <a href="/Order" class="list-group-item list-group-item-action">
+                        <i class="fa fa-shopping-cart"></i> Sifarişləri İdarə Et
+                    </a>
+                    <a href="/Service" class="list-group-item list-group-item-action">
+                        <i class="fa fa-cogs"></i> Xidmətləri İdarə Et
+                    </a>
+                    <a href="/Guard" class="list-group-item list-group-item-action">
+                        <i class="fa fa-users"></i> Mühafizəçiləri İdarə Et
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
