@@ -5,30 +5,85 @@
 <section class="contact_section layout_padding">
     <div class="container">
         <div class="heading_container heading_center">
-            <h2>Sifarişi Sil</h2>
+            <h2>Sifariş #@Model.Id - Silmə Təsdiqi</h2>
+            <p class="text-danger">Bu əməliyyat geri alına bilməz!</p>
         </div>
         <div class="row">
-            <div class="col-md-7 mx-auto">
-                <form asp-action="Delete" method="post">
-                    <input type="hidden" name="Id" value="@Model.Id" />
-                    <div class="contact_form-container">
-                        <div>
-                            <div>
-                                <label>Xidmət ID: @Model.ServiceId</label>
+            <div class="col-md-8 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-danger text-white">
+                        <h5>Silinəcək Sifariş Məlumatları</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Sifariş ID:</strong> #@Model.Id</p>
+                                <p><strong>Müştəri:</strong> @Model.CustomerName</p>
+                                <p><strong>Telefon:</strong> @Model.CustomerPhone</p>
+                                <p><strong>Email:</strong> @Model.CustomerEmail</p>
+                                <p><strong>Xidmət Növü:</strong> @Model.ServiceType</p>
                             </div>
-                            <div>
-                                <label>Ətraflı: @Model.Details</label>
+                            <div class="col-md-6">
+                                <p><strong>Mühafizəçi Sayı:</strong> @Model.Quantity nəfər</p>
+                                <p><strong>Başlama:</strong> @Model.StartDate.ToString("dd.MM.yyyy")</p>
+                                <p><strong>Bitmə:</strong> @Model.EndDate.ToString("dd.MM.yyyy")</p>
+                                <p><strong>Məkan:</strong> @Model.Location</p>
+                                <p><strong>Qiymət:</strong> @Model.TotalPrice AZN</p>
                             </div>
-                            <div>
-                                <label>Status: @Model.Status</label>
+                        </div>
+                        @if (!string.IsNullOrEmpty(Model.AdditionalRequirements))
+                        {
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <p><strong>Əlavə Tələblər:</strong></p>
+                                    <p class="bg-light p-2">@Model.AdditionalRequirements</p>
+                                </div>
                             </div>
-                            <div class="btn-box">
-                                <button type="submit" class="btn btn-danger">Sil</button>
-                                <a href="/Order/Index" class="btn btn-secondary">Geri</a>
+                        }
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <p><strong>Status:</strong> 
+                                    <span class="badge badge-@(Model.Status == "Approved" ? "success" : Model.Status == "Pending" ? "warning" : "info")">
+                                        @Model.Status
+                                    </span>
+                                </p>
+                                <p><strong>Yaradılma Tarixi:</strong> @Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</p>
                             </div>
                         </div>
                     </div>
+                </div>
+                
+                <form asp-action="Delete" method="post" class="mt-4">
+                    <input type="hidden" name="Id" value="@Model.Id" />
+                    <div class="text-center">
+                        <div class="btn-box">
+                            <button type="submit" class="btn btn-danger btn-lg">
+                                <i class="fa fa-trash"></i> Bəli, Sil
+                            </button>
+                            <a href="/Order/Index" class="btn btn-secondary btn-lg ml-3">
+                                <i class="fa fa-arrow-left"></i> Geri Qayıt
+                            </a>
+                        </div>
+                    </div>
                 </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card {
+        border: 1px solid #dee2e6;
+        border-radius: 0.375rem;
+    }
+    .card-header {
+        border-bottom: 1px solid #dee2e6;
+        padding: 1rem;
+    }
+    .badge-success { background-color: #28a745; }
+    .badge-warning { background-color: #ffc107; color: #212529; }
+    .badge-info { background-color: #17a2b8; }
+</style>
             </div>
         </div>
     </div>

@@ -1,30 +1,178 @@
 @model Guarder.Models.Order
 @{
-    ViewData["Title"] = "Yeni Sifariş";
+    ViewData["Title"] = "Yeni Təhlükəsizlik Sifarişi";
 }
 <section class="contact_section layout_padding">
     <div class="container">
         <div class="heading_container heading_center">
-            <h2>Yeni Sifariş</h2>
+            <h2>Təhlükəsizlik Xidməti Sifarişi</h2>
+            <p>Aşağıdakı formu dolduraraq təhlükəsizlik xidməti sifarişi verə bilərsiniz</p>
         </div>
         <div class="row">
-            <div class="col-md-7 mx-auto">
+            <div class="col-md-10 mx-auto">
                 <form asp-action="Create" method="post">
                     <div class="contact_form-container">
-                        <div>
-                            <div>
-                                <input type="text" name="Details" placeholder="Ətraflı məlumat" required />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="CustomerName" placeholder="Ad Soyad" required class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" name="CustomerPhone" placeholder="Əlaqə Nömrəsi" required class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="CustomerEmail" placeholder="Email Ünvanı" required class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <select name="ServiceType" required class="form-control">
+                                        <option value="">Xidmət Növünü Seçin</option>
+                                        <option value="Personal">Şəxsi Təhlükəsizlik (50 AZN/gün/mühafizəçi)</option>
+                                        <option value="Property">Əmlak Təhlükəsizliyi (40 AZN/gün/mühafizəçi)</option>
+                                        <option value="Event">Tədbir Təhlükəsizliyi (60 AZN/gün/mühafizəçi)</option>
+                                        <option value="Corporate">Korporativ Təhlükəsizlik (45 AZN/gün/mühafizəçi)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" name="Quantity" min="1" max="50" placeholder="Mühafizəçi Sayı" required class="form-control" />
+                                </div>
                             </div>
-                            <div>
-                                <input type="number" name="ServiceId" placeholder="Xidmət ID" required />
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Başlama Tarixi:</label>
+                                    <input type="date" name="StartDate" required class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Bitmə Tarixi:</label>
+                                    <input type="date" name="EndDate" required class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Location" placeholder="Xidmət Yeri (Tam Ünvan)" required class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="AdditionalRequirements" placeholder="Əlavə Tələblər və Qeydlər" rows="4" class="form-control"></textarea>
+                                </div>
                             </div>
-                            <div class="btn-box">
-                                <button type="submit">Sifariş et</button>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12 text-center">
+                                <div class="btn-box">
+                                    <button type="submit" class="btn btn-primary btn-lg">Sifariş Ver</button>
+                                    <a asp-controller="Account" asp-action="UserDashboard" class="btn btn-secondary btn-lg ml-3">Geri Qayıt</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="info-section">
+                    <h4 class="text-center mb-4">Xidmət Təfərrüatları</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="service-detail-card">
+                                <h6>Şəxsi Təhlükəsizlik</h6>
+                                <ul>
+                                    <li>VİP mühafizə</li>
+                                    <li>Ailə təhlükəsizliyi</li>
+                                    <li>Şəxsi eskort</li>
+                                    <li>24/7 mühafizə</li>
+                                </ul>
+                                <div class="price">50 AZN/gün</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-detail-card">
+                                <h6>Əmlak Təhlükəsizliği</h6>
+                                <ul>
+                                    <li>Villa mühafizəsi</li>
+                                    <li>Ofis təhlükəsizliyi</li>
+                                    <li>Anbar mühafizəsi</li>
+                                    <li>Gece-gündüz nəzarət</li>
+                                </ul>
+                                <div class="price">40 AZN/gün</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-detail-card">
+                                <h6>Tədbir Təhlükəsizliyi</h6>
+                                <ul>
+                                    <li>Konsert təhlükəsizliyi</li>
+                                    <li>Toy mühafizəsi</li>
+                                    <li>Konfrans təhlükəsizliyi</li>
+                                    <li>Kütləvi tədbir nəzarəti</li>
+                                </ul>
+                                <div class="price">60 AZN/gün</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-detail-card">
+                                <h6>Korporativ Təhlükəsizlik</h6>
+                                <ul>
+                                    <li>Şirkət təhlükəsizliyi</li>
+                                    <li>Biznes mərkəzi</li>
+                                    <li>Fabrik mühafizəsi</li>
+                                    <li>Uzunmüddətli müqavilə</li>
+                                </ul>
+                                <div class="price">45 AZN/gün</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<style>
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-control {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .service-detail-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #dee2e6;
+        height: 100%;
+    }
+    .service-detail-card h6 {
+        color: #007bff;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .service-detail-card ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .service-detail-card li {
+        padding: 5px 0;
+        border-bottom: 1px solid #eee;
+    }
+    .service-detail-card li:last-child {
+        border-bottom: none;
+    }
+    .price {
+        background: #007bff;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: bold;
+    }
+    label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+</style>

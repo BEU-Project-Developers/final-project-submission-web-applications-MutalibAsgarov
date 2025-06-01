@@ -1,42 +1,244 @@
 @model IEnumerable<Guarder.Models.Order>
 @{
-    ViewData["Title"] = "Sifarişlər";
+    ViewData["Title"] = "Bütün Sifarişlər - Admin Panel";
 }
 <section class="contact_section layout_padding">
     <div class="container">
         <div class="heading_container heading_center">
-            <h2>Sifarişlər</h2>
+            <h2>Sifarişlərin İdarə Edilməsi</h2>
+            <p>Bütün müştəri sifarişlərini buradan idarə edə bilərsiniz</p>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <a class="btn btn-success mb-3" href="/Order/Create">Yeni Sifariş</a>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Xidmət</th>
-                            <th>Ətraflı</th>
-                            <th>Status</th>
-                            <th>Əməliyyat</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>@item.Id</td>
-                                <td>@item.ServiceId</td>
-                                <td>@item.Details</td>
-                                <td>@item.Status</td>
-                                <td>
-                                    <a class="btn btn-primary btn-sm" href="/Order/Edit/@item.Id">Redaktə</a>
-                                    <a class="btn btn-danger btn-sm" href="/Order/Delete/@item.Id">Sil</a>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+        
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-primary" onclick="filterOrders('all')">Hamısı</button>
+                    <button type="button" class="btn btn-outline-warning" onclick="filterOrders('Pending')">Gözləyənlər</button>
+                    <button type="button" class="btn btn-outline-success" onclick="filterOrders('Approved')">Təsdiqlənənlər</button>
+                    <button type="button" class="btn btn-outline-info" onclick="filterOrders('In Progress')">Davam edənlər</button>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <a class="btn btn-secondary" href="/Admin">
+                    <i class="fa fa-dashboard"></i> Admin Panel
+                </a>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                @if (Model.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped" id="ordersTable">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Müştəri</th>
+                                    <th>Əlaqə</th>
+                                    <th>Xidmət</th>
+                                    <th>Say</th>
+                                    <th>Tarix</th>
+                                    <th>Məkan</th>
+                                    <th>Qiymət</th>
+                                    <th>Status</th>
+                                    <th>Əməliyyat</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.OrderByDescending(o => o.CreatedAt))
+                                {
+                                    <tr data-status="@item.Status">
+                                        <td><strong>#@item.Id</strong></td>
+                                        <td>@item.CustomerName</td>
+                                        <td>
+                                            <small>
+                                                <i class="fa fa-phone"></i> @item.CustomerPhone<br>
+                                                <i class="fa fa-envelope"></i> @item.CustomerEmail
+                                            </small>
+                                        </td>
+                                        <td>
+                                            @switch(item.ServiceType)
+                                            {
+                                                case "Personal":
+                                                    <span class="badge badge-info">Şəxsi</span>
+                                                    break;
+                                                case "Property":
+                                                    <span class="badge badge-warning">Əmlak</span>
+                                                    break;
+                                                case "Event":
+                                                    <span class="badge badge-success">Tədbir</span>
+                                                    break;
+                                                case "Corporate":
+                                                    <span class="badge badge-primary">Korporativ</span>
+                                                    break;
+                                            }
+                                        </td>
+                                        <td>@item.Quantity nəfər</td>
+                                        <td>
+                                            <small>
+                                                <strong>Başlama:</strong> @item.StartDate.ToString("dd.MM.yyyy")<br>
+                                                <strong>Bitmə:</strong> @item.EndDate.ToString("dd.MM.yyyy")
+                                            </small>
+                                        </td>
+                                        <td>@item.Location</td>
+                                        <td><strong>@item.TotalPrice AZN</strong></td>
+                                        <td>
+                                            @switch(item.Status)
+                                            {
+                                                case "Pending":
+                                                    <span class="badge badge-warning">Gözləyir</span>
+                                                    break;
+                                                case "Approved":
+                                                    <span class="badge badge-success">Təsdiqləndi</span>
+                                                    break;
+                                                case "In Progress":
+                                                    <span class="badge badge-info">Davam edir</span>
+                                                    break;
+                                                case "Completed":
+                                                    <span class="badge badge-success">Tamamlandı</span>
+                                                    break;
+                                                case "Cancelled":
+                                                    <span class="badge badge-danger">Ləğv edildi</span>
+                                                    break;
+                                            }
+                                        </td>
+                                        <td>
+                                            <div class="btn-group-vertical btn-group-sm">
+                                                <a class="btn btn-primary btn-sm" href="/Order/Edit/@item.Id">
+                                                    <i class="fa fa-edit"></i> Redaktə
+                                                </a>
+                                                <a class="btn btn-danger btn-sm" href="/Order/Delete/@item.Id">
+                                                    <i class="fa fa-trash"></i> Sil
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    @if (!string.IsNullOrEmpty(item.AdditionalRequirements))
+                                    {
+                                        <tr data-status="@item.Status" style="background-color: #f8f9fa;">
+                                            <td colspan="10">
+                                                <small><strong>Əlavə Tələblər:</strong> @item.AdditionalRequirements</small>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center">
+                        <div class="alert alert-info">
+                            <h4>Hələ heç bir sifariş yoxdur</h4>
+                            <p>Müştərilər sifariş verdikdə burada görünəcəklər</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        @if (Model.Any())
+        {
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Sifariş Statistikaları</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="text-center">
+                                        <h4 class="text-primary">@Model.Count()</h4>
+                                        <p>Ümumi</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="text-center">
+                                        <h4 class="text-warning">@Model.Count(o => o.Status == "Pending")</h4>
+                                        <p>Gözləyir</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="text-center">
+                                        <h4 class="text-success">@Model.Count(o => o.Status == "Approved")</h4>
+                                        <p>Təsdiqləndi</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="text-center">
+                                        <h4 class="text-info">@Model.Count(o => o.Status == "In Progress")</h4>
+                                        <p>Davam edir</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="text-center">
+                                        <h4 class="text-success">@Model.Count(o => o.Status == "Completed")</h4>
+                                        <p>Tamamlandı</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="text-center">
+                                        <h4 class="text-secondary">@Model.Sum(o => o.TotalPrice) AZN</h4>
+                                        <p>Ümumi Gəlir</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
     </div>
 </section>
+
+<script>
+function filterOrders(status) {
+    const table = document.getElementById('ordersTable');
+    const rows = table.getElementsByTagName('tr');
+    
+    for (let i = 1; i < rows.length; i++) { // Skip header row
+        const row = rows[i];
+        if (status === 'all') {
+            row.style.display = '';
+        } else {
+            const rowStatus = row.getAttribute('data-status');
+            if (rowStatus === status) {
+                row.style.display = '';
+            } else {
+                row.style.display = 'none';
+            }
+        }
+    }
+    
+    // Update button states
+    const buttons = document.querySelectorAll('.btn-group .btn');
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+}
+</script>
+
+<style>
+    .badge {
+        font-size: 0.8em;
+        padding: 4px 8px;
+    }
+    .btn-group-vertical .btn {
+        margin-bottom: 2px;
+    }
+    .table-responsive {
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+    .card {
+        border: 1px solid #dee2e6;
+        border-radius: 0.375rem;
+    }
+    .card-header {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #dee2e6;
+        padding: 1rem;
+    }
+</style>

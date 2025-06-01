@@ -1,0 +1,111 @@
+@model Guarder.Models.User
+
+@{
+    ViewData["Title"] = "İstifadəçini Sil";
+}
+
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>İstifadəçini Sil</h2>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-danger">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="fa fa-exclamation-triangle"></i> İstifadəçini Silmək İstəyirsiniz?
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert alert-warning" role="alert">
+                            <i class="fa fa-warning"></i>
+                            <strong>Diqqət!</strong> Bu əməliyyat geri qaytarıla bilməz. İstifadəçi və onun bütün məlumatları silinəcək.
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td class="fw-bold text-end" style="width: 30%;">ID:</td>
+                                            <td>@Html.DisplayFor(model => model.Id)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold text-end">Ad:</td>
+                                            <td>@Html.DisplayFor(model => model.Name)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold text-end">Email:</td>
+                                            <td>@Html.DisplayFor(model => model.Email)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold text-end">Rol:</td>
+                                            <td>
+                                                <span class="badge @(Model.Role == "Admin" ? "bg-danger" : "bg-primary") fs-6">
+                                                    @Html.DisplayFor(model => model.Role)
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <form asp-action="Delete" method="post">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <button type="submit" class="btn btn-danger" 
+                                            onclick="return confirm('Bu istifadəçini silmək istədiyinizdən əminsiniz?')">
+                                        <i class="fa fa-trash"></i> Bəli, Sil
+                                    </button>
+                                    <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-info">
+                                        <i class="fa fa-eye"></i> Məlumatları göstər
+                                    </a>
+                                </div>
+                                <div>
+                                    <a asp-action="Manage" class="btn btn-secondary">
+                                        <i class="fa fa-arrow-left"></i> Ləğv et
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card {
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    }
+    
+    .table td {
+        padding: 1rem 0.5rem;
+        vertical-align: middle;
+    }
+    
+    .fw-bold {
+        font-weight: 600;
+    }
+    
+    .badge {
+        font-size: 0.9em;
+        padding: 0.5rem 1rem;
+    }
+    
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-weight: 500;
+    }
+    
+    .alert {
+        border-left: 4px solid #ffc107;
+    }
+</style>

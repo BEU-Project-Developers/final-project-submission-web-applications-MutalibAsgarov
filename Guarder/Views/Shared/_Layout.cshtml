@@ -91,11 +91,26 @@
                                 </li>
                                 @if (User.Identity != null && User.Identity.IsAuthenticated)
                                 {
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-controller="Admin" asp-action="Index">Admin Panel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-controller="Order" asp-action="Index">Sifarişlər</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-controller="Account" asp-action="UserDashboard">Panel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-controller="Order" asp-action="MyOrders">Sifarişlərim</a>
+                                        </li>
+                                    }
                                     <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Order" asp-action="Index">Sifarişlərim</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Account" asp-action="Logout">Çıxış</a>
+                                        <a class="nav-link" asp-controller="Account" asp-action="Logout">Çıxış (@User.Identity.Name)</a>
                                     </li>
                                 }
                                 else

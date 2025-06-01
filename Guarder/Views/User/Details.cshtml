@@ -1,0 +1,95 @@
+@model Guarder.Models.User
+
+@{
+    ViewData["Title"] = "İstifadəçi Məlumatları";
+}
+
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>İstifadəçi Məlumatları</h2>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">@Model.Name - Məlumatları</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <td class="fw-bold text-end" style="width: 30%;">ID:</td>
+                                            <td>@Html.DisplayFor(model => model.Id)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold text-end">Ad:</td>
+                                            <td>@Html.DisplayFor(model => model.Name)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold text-end">Email:</td>
+                                            <td>@Html.DisplayFor(model => model.Email)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold text-end">Rol:</td>
+                                            <td>
+                                                <span class="badge @(Model.Role == "Admin" ? "bg-danger" : "bg-primary") fs-6">
+                                                    @Html.DisplayFor(model => model.Role)
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                                    <i class="fa fa-edit"></i> Redaktə et
+                                </a>
+                                @if (Model.Role != "Admin")
+                                {
+                                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">
+                                        <i class="fa fa-trash"></i> Sil
+                                    </a>
+                                }
+                            </div>
+                            <div>
+                                <a asp-action="Manage" class="btn btn-secondary">
+                                    <i class="fa fa-arrow-left"></i> İstifadəçilər siyahısına qayıt
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card {
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        border: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    
+    .table td {
+        padding: 1rem 0.5rem;
+        vertical-align: middle;
+    }
+    
+    .fw-bold {
+        font-weight: 600;
+    }
+    
+    .badge {
+        font-size: 0.9em;
+        padding: 0.5rem 1rem;
+    }
+</style>

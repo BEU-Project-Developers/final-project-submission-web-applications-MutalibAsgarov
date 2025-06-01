@@ -1,0 +1,124 @@
+@{
+    ViewData["Title"] = "İstifadəçi Paneli";
+}
+
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>Xoş Gəlmisiniz, @ViewBag.UserName!</h2>
+            <p>Təhlükəsizlik xidmətlərimizə sifariş vermək üçün aşağıdakı bölməni istifadə edin</p>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card text-white bg-primary mb-3">
+                    <div class="card-header">Sifariş Ver</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Yeni Təhlükəsizlik Xidməti</h5>
+                        <p class="card-text">Şəxsi, əmlak, tədbir və ya korporativ təhlükəsizlik xidmətləri</p>
+                        <a href="/Order/Create" class="btn btn-light">Sifariş Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-white bg-success mb-3">
+                    <div class="card-header">Sifarişlərim</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Aktiv Sifarişlər</h5>
+                        <p class="card-text display-4">@(ViewBag.UserOrders != null ? ((List<Guarder.Models.Order>)ViewBag.UserOrders).Count : 0)</p>
+                        <a href="/Order/MyOrders" class="btn btn-light">Sifarişləri Gör</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @if (ViewBag.UserOrders != null && ((List<Guarder.Models.Order>)ViewBag.UserOrders).Count > 0)
+        {
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h4>Son Sifarişlər</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="text-light">Xidmət Növü</th>
+                                    <th class="text-light">Miqdar</th>
+                                    <th class="text-light">Məkan</th>
+                                    <th class="text-light">Status</th>
+                                    <th class="text-light">Tarix</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in ((List<Guarder.Models.Order>)ViewBag.UserOrders).Take(5))
+                                {
+                                    <tr>
+                                        <td>@order.ServiceType</td>
+                                        <td>@order.Quantity mühafizəçi</td>
+                                        <td>@order.Location</td>
+                                        <td>
+                                            <span class="badge badge-@(order.Status == "Approved" ? "success" : order.Status == "Pending" ? "warning" : "info")">
+                                                @order.Status
+                                            </span>
+                                        </td>
+                                        <td>@order.CreatedAt.ToString("dd.MM.yyyy")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="info-section">
+                    <h4>Xidmət Növlərimiz</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="service-card">
+                                <h6>Şəxsi Təhlükəsizlik</h6>
+                                <p>VİP şəxslər, ailələr və fərdlər üçün şəxsi mühafizə xidməti</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-card">
+                                <h6>Əmlak Təhlükəsizliyi</h6>
+                                <p>Binalar, villar, ofislər və digər əmlakların mühafizəsi</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-card">
+                                <h6>Tədbir Təhlükəsizliyi</h6>
+                                <p>Konsertlər, konfranslar, toylar və digər tədbirlər üçün</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-card">
+                                <h6>Korporativ Təhlükəsizlik</h6>
+                                <p>Şirkətlər və biznes mərkəzləri üçün uzunmüddətli xidmət</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .service-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #dee2e6;
+    }
+    .service-card h6 {
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+    .badge-success { background-color: #28a745; }
+    .badge-warning { background-color: #ffc107; color: #212529; }
+    .badge-info { background-color: #17a2b8; }
+</style>
