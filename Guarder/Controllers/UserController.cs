@@ -14,47 +14,65 @@ namespace Guarder.Controllers
         public UserController(GuarderDbContext context)
         {
             _context = context;
-        }
-
-        // GET: User/Manage
+        }        // GET: User/Manage
         public async Task<IActionResult> Manage()
         {
-            var users = await _context.Users.ToListAsync();
-            return View(users);
-        }
-
-        // GET: User/Details/5
+            try
+            {
+                var users = await _context.Users.ToListAsync();
+                return View(users);
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "İstifadəçi siyahısını yükləyərkən xəta baş verdi.";
+                return View(new List<User>());
+            }
+        }        // GET: User/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            try
             {
-                return NotFound();
-            }
+                if (id == null)
+                {
+                    return NotFound();
+                }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (user == null)
+                var user = await _context.Users
+                    .FirstOrDefaultAsync(m => m.Id == id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                return View(user);
+            }
+            catch (Exception ex)
             {
-                return NotFound();
+                TempData["ErrorMessage"] = "İstifadəçi məlumatlarını yükləyərkən xəta baş verdi.";
+                return RedirectToAction(nameof(Manage));
             }
-
-            return View(user);
-        }
-
-        // GET: User/Edit/5
+        }        // GET: User/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return NotFound();
-            }
+                if (id == null)
+                {
+                    return NotFound();
+                }
 
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
+                var user = await _context.Users.FindAsync(id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "İstifadəçi məlumatlarını yükləyərkən xəta baş verdi.";
+                return RedirectToAction(nameof(Manage));
+            }
         }
 
         // POST: User/Edit/5
@@ -86,8 +104,7 @@ namespace Guarder.Controllers
                     _context.Update(existingUser);
                     await _context.SaveChangesAsync();
                     TempData["SuccessMessage"] = "İstifadəçi məlumatları uğurla yeniləndi.";
-                }
-                catch (DbUpdateConcurrencyException)
+                }                catch (DbUpdateConcurrencyException)
                 {
                     if (!UserExists(user.Id))
                     {
@@ -98,55 +115,77 @@ namespace Guarder.Controllers
                         throw;
                     }
                 }
+                catch (Exception ex)
+                {
+                    TempData["ErrorMessage"] = "İstifadəçi məlumatlarını yeniləyərkən xəta baş verdi.";
+                    return View(user);
+                }
                 return RedirectToAction(nameof(Manage));
             }
             return View(user);
-        }
-
-        // GET: User/Delete/5
+        }        // GET: User/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return NotFound();
-            }
+                if (id == null)
+                {
+                    return NotFound();
+                }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (user == null)
+                var user = await _context.Users
+                    .FirstOrDefaultAsync(m => m.Id == id);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                return View(user);
+            }
+            catch (Exception ex)
             {
-                return NotFound();
+                TempData["ErrorMessage"] = "İstifadəçi məlumatlarını yükləyərkən xəta baş verdi.";
+                return RedirectToAction(nameof(Manage));
             }
-
-            return View(user);
-        }
-
-        // POST: User/Delete/5
+        }        // POST: User/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var user = await _context.Users.FindAsync(id);
-            if (user != null)
-            {                // Check if user has orders
-                var hasOrders = await _context.Orders.AnyAsync(o => o.UserId == id);
-                if (hasOrders)
-                {
-                    TempData["ErrorMessage"] = "Bu istifadəçini silmək mümkün deyil. Onun sifarişləri mövcuddur.";
-                    return RedirectToAction(nameof(Manage));
+            try
+            {
+                var user = await _context.Users.FindAsync(id);
+                if (user != null)
+                {                // Check if user has orders
+                    var hasOrders = await _context.Orders.AnyAsync(o => o.UserId == id);
+                    if (hasOrders)
+                    {
+                        TempData["ErrorMessage"] = "Bu istifadəçini silmək mümkün deyil. Onun sifarişləri mövcuddur.";
+                        return RedirectToAction(nameof(Manage));
+                    }
+
+                    _context.Users.Remove(user);
+                    await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "İstifadəçi uğurla silindi.";
                 }
 
-                _context.Users.Remove(user);
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "İstifadəçi uğurla silindi.";
+                return RedirectToAction(nameof(Manage));
             }
-
-            return RedirectToAction(nameof(Manage));
-        }
-
-        private bool UserExists(int id)
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "İstifadəçini silərkən xəta baş verdi.";
+                return RedirectToAction(nameof(Manage));
+            }
+        }        private bool UserExists(int id)
         {
-            return _context.Users.Any(e => e.Id == id);
+            try
+            {
+                return _context.Users.Any(e => e.Id == id);
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

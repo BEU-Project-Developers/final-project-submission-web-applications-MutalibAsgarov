@@ -16,10 +16,20 @@ namespace Guarder.Controllers
 
         public IActionResult Index()
         {
-            // Get counts for dashboard
-            ViewBag.UserCount = _context.Users.Count();
-            ViewBag.OrderCount = _context.Orders.Count();
-            return View();
+            try
+            {
+                // Get counts for dashboard
+                ViewBag.UserCount = _context.Users.Count();
+                ViewBag.OrderCount = _context.Orders.Count();
+                return View();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.UserCount = 0;
+                ViewBag.OrderCount = 0;
+                TempData["ErrorMessage"] = "Admin paneli məlumatlarını yükləyərkən xəta baş verdi.";
+                return View();
+            }
         }
     }
 }

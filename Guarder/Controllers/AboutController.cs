@@ -6,7 +6,14 @@ namespace Guarder.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            try
+            {
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return View();
+            }
         }
     }
 }
